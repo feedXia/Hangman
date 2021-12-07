@@ -15,6 +15,7 @@ public class Game {
   public static void main(String[] args) {
     Game guessingGame = new Game(new WordChooser());
     System.out.println(guessingGame.getWordToGuess());
+    System.out.println(guessingGame.getWordToGuess());
     System.out.printf("%d attempts remaining...\n", guessingGame.getRemainingAttempts());
     System.out.printf("The random word is: %s \n", word);
   }
